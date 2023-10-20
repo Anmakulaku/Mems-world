@@ -21,6 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://anmakulaku.github.io/MemsWorld/",
   "eslintConfig": {
     "extends": [
       "react-app",
