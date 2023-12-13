@@ -1,6 +1,7 @@
 # Project Overview
 
-My first app in Raect! 
+My first app in React!
+<br> 
 A simple site for viewing memes. You can vote for your favorite memes,
 then they get to the Top of the TOP memes. You can also add your meme in the "Dodaj mema" tab.
 
@@ -16,10 +17,10 @@ https://anmakulaku.github.io/Mems-world/
 
 # Sreenshots
 
-<img width="577" alt="Memy1" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/462520f5-a62c-44d3-ba29-f3bc9d737ebd">
-<img width="465" alt="Memy2" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/962d8b0c-4e65-49a3-a1b8-91f25cb3b406">
-<img width="635" alt="Memy4" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/87e55ecd-c8fc-4a85-a61c-4a88e8aa49b7">
-<img width="242" alt="Memy3" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/cfd26932-270f-427b-a5d1-a4c26e627056">
+<img width="25%" height="25%" alt="Memy3" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/cfd26932-270f-427b-a5d1-a4c26e627056">
+<img width="65%" height="auto" alt="Memy4" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/87e55ecd-c8fc-4a85-a61c-4a88e8aa49b7">
+<img width="50%" height="50%" alt="Memy2" src="https://github.com/Anmakulaku/Mems-world/assets/119726677/962d8b0c-4e65-49a3-a1b8-91f25cb3b406">
+
 
 # How to start?
   1. Clone the repository: <br>
