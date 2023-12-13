@@ -3,10 +3,9 @@ import React, {useState} from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import TopMems from './pages/TopMems';
-import Error404 from './pages/Error404';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import MemsData from './MemsData';
+import MemsData from './components/MemsData';
 import AddMemeForm from './components/AddMemeForm';
 
 function App() {
@@ -44,15 +43,9 @@ function App() {
         <Navigation  />
         <main className="content">
           <Routes>
-            <Route path="/" element={
-                <MainPage memData={memData} onUpvote={handleUpvote} onDownvote={handleDownvote} />
-            } />
-            <Route path="/TopMems" element={
-                <TopMems memData={memData} onUpvote={handleUpvote} onDownvote={handleDownvote} />
-            } />
-            <Route path="*" element={<Error404 />} />
-            <Route path="/AddMemeForm" element={<AddMemeForm onSubmit={handleAddMeme} />
-            } />
+            <Route path="/" element={<MainPage memData={memData} onUpvote={handleUpvote} onDownvote={handleDownvote} />} />
+            <Route path="/TopMems" element={<TopMems memData={memData} onUpvote={handleUpvote} onDownvote={handleDownvote} />} />
+            <Route path="/AddMemeForm" element={<AddMemeForm onSubmit={handleAddMeme} />} />
           </Routes>
         </main>
         <Footer />
