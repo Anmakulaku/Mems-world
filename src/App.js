@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import TopMems from './pages/TopMems';
 import Navigation from './components/Navigation';
@@ -43,6 +43,7 @@ function App() {
         <Navigation  />
         <main className="content">
           <Routes>
+          <Route path="/Mems-world" element={<Navigate to="/" replace />} />
             <Route path="/" element={<MainPage memData={memData} onUpvote={handleUpvote} onDownvote={handleDownvote} />} />
             <Route path="/TopMems" element={<TopMems memData={memData} onUpvote={handleUpvote} onDownvote={handleDownvote} />} />
             <Route path="/AddMemeForm" element={<AddMemeForm onSubmit={handleAddMeme} />} />
