@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mems-world/static/css/main.4fa0fb5e.css",
-    "main.js": "/Mems-world/static/js/main.ce127af0.js",
+    "main.js": "/Mems-world/static/js/main.aae8a51c.js",
     "static/js/787.fa883bbb.chunk.js": "/Mems-world/static/js/787.fa883bbb.chunk.js",
     "static/media/mem3.jpg": "/Mems-world/static/media/mem3.6d805be24b56a3090790.jpg",
     "static/media/mem16.jpg": "/Mems-world/static/media/mem16.cab255c2d86c2f34460a.jpg",
@@ -23,11 +23,11 @@
     "static/media/memsWorld.png": "/Mems-world/static/media/memsWorld.5b7284f497bacf219c33.png",
     "index.html": "/Mems-world/index.html",
     "main.4fa0fb5e.css.map": "/Mems-world/static/css/main.4fa0fb5e.css.map",
-    "main.ce127af0.js.map": "/Mems-world/static/js/main.ce127af0.js.map",
+    "main.aae8a51c.js.map": "/Mems-world/static/js/main.aae8a51c.js.map",
     "787.fa883bbb.chunk.js.map": "/Mems-world/static/js/787.fa883bbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fa0fb5e.css",
-    "static/js/main.ce127af0.js"
+    "static/js/main.aae8a51c.js"
   ]
 }
