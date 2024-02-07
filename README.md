@@ -7,13 +7,14 @@ My first app in React!
 A simple website for viewing memes. You can vote for your favorite memes,
 then they get to the Top of the TOP MEMES! You can also add your own meme.
 
-# Live:
+# Live
 
 https://anmakulaku.github.io/Mems-world/
 
 # Tech Used
 <ul>
   <li>React</li>
+  <li>Vanilla CSS</li>
   <li>Canva</li>
 </ul>
 
