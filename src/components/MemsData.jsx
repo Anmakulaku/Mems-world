@@ -2,7 +2,7 @@ import {mem1, mem2, mem3, mem4, mem5, mem6,mem7, mem8, mem9,mem10, mem11, mem12,
 
 const memsData = [
     {
-        title: "PIS = drożyzna",
+        title: "Szalone życie",
         upvotes: 6,
         downvotes: 5,
         imageUrl: mem1,
